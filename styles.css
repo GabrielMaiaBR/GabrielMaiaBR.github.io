@@ -67,3 +67,33 @@ footer {
 .visitantes {
     background-color: #d6a3d6;
 }
+/* ... Outros estilos ... */
+
+/* Estilos para as informações das pessoas */
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.person img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.person h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.person p {
+    font-size: 16px;
+    text-align: center;
+}
