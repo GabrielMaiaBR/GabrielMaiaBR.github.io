@@ -1,6 +1,6 @@
 /* Estilos gerais */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -8,7 +8,7 @@ body {
 header {
     background-color: #336699;
     color: white;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -17,54 +17,52 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #eeeeee;
+    background-color: #f0f0f0;
+    border-top: 2px solid #336699;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav a {
     text-decoration: none;
-    color: #333333;
+    color: #333;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #336699;
 }
 
 main {
-    padding: 20px;
+    padding: 30px;
 }
 
 footer {
-    background-color: #333333;
+    background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
 }
 
 /* Estilos específicos para cada página */
 .home {
-    background-color: #f0f0f0;
+    background-color: #f9f9f9;
 }
 
 .alunos {
-    background-color: #ddaa55;
+    background-color: #ffd699;
 }
 
 .professores {
-    background-color: #55aa55;
+    background-color: #a3d699;
 }
 
 .administracao {
-    background-color: #aa5555;
+    background-color: #d699a3;
 }
 
 .visitantes {
-    background-color: #5555aa;
-}
-
-/* Estilos Responsivos */
-@media screen and (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
+    background-color: #d6a3d6;
 }
