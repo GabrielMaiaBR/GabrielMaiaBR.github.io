@@ -1,0 +1,70 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #336699;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #eeeeee;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos específicos para cada página */
+.home {
+    background-color: #f0f0f0;
+}
+
+.alunos {
+    background-color: #ddaa55;
+}
+
+.professores {
+    background-color: #55aa55;
+}
+
+.administracao {
+    background-color: #aa5555;
+}
+
+.visitantes {
+    background-color: #5555aa;
+}
+
+/* Estilos Responsivos */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
