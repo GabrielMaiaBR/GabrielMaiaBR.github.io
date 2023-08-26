@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Erro 404</title>
+</head>
+<body class="error404">
+    <div class="error-container">
+        <img src="error.gif" alt="Erro 404">
+        <p class="error-message" id="error-message">Oops! Algo deu errado...</p>
+    </div>
+    <script>
+        setTimeout(function() {
+            var errorMessage = document.getElementById("error-message");
+            errorMessage.innerHTML = "Não encontramos o que você está procurando.";
+        }, 5000); // Altere o valor (em milissegundos) para ajustar o tempo que a mensagem aparecerá
+    </script>
+</body>
+</html>

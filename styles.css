@@ -67,7 +67,6 @@ footer {
 .visitantes {
     background-color: #d6a3d6;
 }
-/* ... Outros estilos ... */
 
 /* Estilos para as informações das pessoas */
 .person {
@@ -96,4 +95,23 @@ footer {
 .person p {
     font-size: 16px;
     text-align: center;
+}
+
+/* Estilos para a página de erro 404 */
+.error404 {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.error-container {
+    text-align: center;
+}
+
+.error-message {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
 }
