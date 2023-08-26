@@ -115,3 +115,9 @@ footer {
     font-weight: bold;
     margin-top: 10px;
 }
+
+/* Adjust the size of the person images */
+.person-image {
+    max-width: 50%;
+    height: auto;
+}
